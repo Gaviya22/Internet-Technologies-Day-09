@@ -1,4 +1,6 @@
-fetch("/components/nav.html").then(res=> res.text()).then(data=>{
-    document.getElementById("navbar").innerHTML=data;
-
-})
+export function sum (x,y){
+    return x+y;
+}
+export function multiply(x,y){
+    return x*y;
+}
